@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <h1 class="titulo"> Propiedades básicas de CSS, Display: inline, block, inline-block</h1> 
+
+    <div class="menu">
+    
+        <a href="inicio.html"  >INICIO</a> -
+        <a href="conceptos1.html">CONCEPTOS</a>  -
+        <a href="recursos1.html">RECURSOS</a>   -
+        <a href="autoevaluacion1.html"> AUTOEVALUACION </a>  -
+        <a href="autor.html">AUTOR</a>     -
+        
+    </div>
+    
+    <h2>CONCEPTOS2</h2>  
+    <a href="inicio.html">INICIO</a>
+
+    <table class="tabla">
+        <tr>
+        <td>
+            CAMBIAR AUTOMATICA MODO
+            <br>
+            Una cuestión importante y que muchas veces se nos pasa por alto es que un elemento en línea puede cambiar de manera automática y pasar a ser un elemento de bloque en ciertas circunstancias, sin que nos demos cuenta. En concreto si lo flotamos con la propiedad CSS llamada float, aunque el elemento sea inline (incluso aunque lo indiquemos explícitamente con un display:inline !important;) el elemento adquirirá automáticamente el estilo de bloque para poder aplicar la flotación, que tiene preferencia. 
+        <br><br>
+             
+             <br>
+             La propiedad CSS display especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible). 
+
+Formalmente la propiedad display establece los tipos de visualización interna y externa de un elemento. La tipo externa establece la participacion de un elemento en flow layout; la tipo interna establece el layout(Diseño) de los hijos. Algunos valores de display estan totalmente definidos con sus especificaciones propias; por ejemplo el detalle de que pasa cuando display: flex es declarado y definido en la especificacion de Modelo Flexible de Caja(Flexible Box Model specification) de CSS.
+            <br><br>
+             ACCESIBILIDAD <BR></BR>
+             display none:
+             Al utilizar un valor de none en la propiedad display el elemento se elimina del árbol de accesibilidad. El efecto de esto será que este elemento y sus hijos no serán anunciados a los lectores de pantalla utilizados por no videntes.
+             Si deseas ocultar el elemento solo de forma visible, pero que los lectores de accesibilidad lo sigan anunciando, puedes utilizar un método alternativo con una combinación de propiedades de CSS.
+                <BR></BR>
+             display contents:
+             Los navegadores eliminarán el atributo predeterminado de role de cualquier elemento con una propiedad display que tenga un valor de contents del árbol de accesibilidad. Esto causará que los elementos y sus descendientes no sean anunciados a los lectores de pantalla.
+        </td>
+        <td>
+            <img src  ="html5.png" alt="html5"
+        </td>
+</body>
+</html>
